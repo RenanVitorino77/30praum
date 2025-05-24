@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #fff;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1db954;
+}
+
+.artist-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .info {
+  padding: 15px;
+  text-align: center;
+}
+
+.card .info h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+}
+
+.card .info p {
+  margin: 5px 0 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.card .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.card .buttons a {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  transition: background 0.3s;
+}
+
+.card .buttons a.spotify {
+  background-color: #1db954;
+}
+
+.card .buttons a.instagram {
+  background-color: #a245b9;
+}
+
+.card .buttons a:hover {
+  opacity: 0.8;
+}
+.top-banner {
+  width: 30%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.sobre-gravadora {
+  background-color: #1a1a1a;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 16px;
+}
+
+.sobre-gravadora h2,
+.sobre-gravadora h3 {
+  color: #1db954;
+}
+
+.sobre-gravadora p,
+.sobre-gravadora ul {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.sobre-gravadora ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
