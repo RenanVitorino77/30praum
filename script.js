@@ -16,7 +16,7 @@ const artistas = [
   {
     nome: "Teto",
     imagem: "4566c122-282d-4a51-9f10-9206bf255cb8.jpeg",
-    musica: "Greica",
+    musica: "Grécia",
     spotify: "https://open.spotify.com/intl-pt/track/66WeFkFXdWoDaKgk8SrnBs?si=14ca6434428342df",
     instagram: "https://www.instagram.com/euteto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
   },
